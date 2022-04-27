@@ -14,9 +14,10 @@ export class AppComponent {
     {
       headerName: 'Ful Name',
       field: 'fulName',
+      width: 160,
     },
-    { headerName: 'Age', field: 'age' },
-    { headerName: 'City', field: 'city' },
+    { headerName: 'Age', field: 'age', width: 160 },
+    { headerName: 'City', field: 'city', width: 160 },
   ];
   rowData = [];
 
@@ -40,8 +41,6 @@ export class AppComponent {
       this.detailform.value.dob != null &&
       this.detailform.value.city != null
     ) {
-      console.log('null');
-
       let fulName =
         this.detailform.value.firstname + ' ' + this.detailform.value.lastName;
       let city = this.detailform.value.city;

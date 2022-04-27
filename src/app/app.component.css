@@ -27,8 +27,18 @@ label {
   margin-bottom: 10px;
 }
 button {
+  cursor: pointer;
   width: 100px;
-  height: 40px;
+  height: 35px;
+  background-color: #666666;
+  border-radius: 5px;
+  border: none;
+  color: #fff;
+  transition: 0.3s;
+}
+button:hover {
+  color: #666666;
+  background-color: #fff;
 }
 .ag-theme-blue {
   background-color: #f9f9f9;
@@ -42,4 +52,8 @@ input.ng-invalid.ng-touched {
 small {
   color: red;
   margin-bottom: 10px;
+}
+
+input.ng-valid.ng-touched {
+  border: 2px solid green;
 }
