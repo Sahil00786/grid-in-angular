@@ -1,0 +1,45 @@
+form {
+  margin-bottom: 20px;
+}
+.info-form {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: baseline;
+}
+.container {
+  width: 500px;
+  margin: auto;
+  background-color: #f1f1f1;
+  border-radius: 10px;
+  padding: 20px;
+}
+input {
+  width: 200px;
+  height: 32px;
+  margin: 10px 0;
+  display: block;
+  border-radius: 5px;
+  border: 2px solid rgb(95, 95, 95);
+  outline: none;
+}
+label {
+  margin-bottom: 10px;
+}
+button {
+  width: 100px;
+  height: 40px;
+}
+.ag-theme-blue {
+  background-color: #f9f9f9;
+  padding: 10px;
+  border-radius: 10px;
+}
+input.ng-invalid.ng-touched {
+  border: 2px solid red;
+  margin-bottom: 0;
+}
+small {
+  color: red;
+  margin-bottom: 10px;
+}
