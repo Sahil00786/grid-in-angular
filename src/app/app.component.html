@@ -48,7 +48,7 @@
           >fill this field</small
         >
       </label>
-      <button type="submit">Add</button>
+      <button type="submit" [disabled]="!form.valid">Add</button>
     </div>
   </form>
   <ag-grid-angular
